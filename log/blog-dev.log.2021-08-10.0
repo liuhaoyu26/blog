@@ -1,0 +1,19 @@
+2021-08-10 20:02:44.068  INFO 14560 --- [main] com.leaf.BlogApplicationTests            : Starting BlogApplicationTests using Java 1.8.0_221 on DESKTOP-NB4R6RN with PID 14560 (started by ¡ı∫∆”Ó in E:\springboot\blog)
+2021-08-10 20:02:44.074 DEBUG 14560 --- [main] com.leaf.BlogApplicationTests            : Running with Spring Boot v2.5.3, Spring v5.3.9
+2021-08-10 20:02:44.074  INFO 14560 --- [main] com.leaf.BlogApplicationTests            : The following profiles are active: dev
+2021-08-10 20:02:45.023  INFO 14560 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-10 20:02:45.117  INFO 14560 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 5 JPA repository interfaces.
+2021-08-10 20:02:46.369  INFO 14560 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-10 20:02:46.457  INFO 14560 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-10 20:02:46.682  INFO 14560 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-10 20:02:48.253  INFO 14560 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-10 20:02:50.179  INFO 14560 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-10 20:02:50.228  INFO 14560 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-10 20:02:51.575  INFO 14560 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-10 20:02:51.590  INFO 14560 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-10 20:02:53.819  WARN 14560 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-10 20:02:54.668  INFO 14560 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-08-10 20:02:55.082  INFO 14560 --- [main] com.leaf.BlogApplicationTests            : Started BlogApplicationTests in 11.872 seconds (JVM running for 13.483)
+2021-08-10 20:02:55.222  INFO 14560 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-10 20:02:55.225  INFO 14560 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-10 20:02:55.237  INFO 14560 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

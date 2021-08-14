@@ -1,0 +1,200 @@
+2021-08-12 17:29:26.176  INFO 7076 --- [restartedMain] com.leaf.BlogApplication                 : Starting BlogApplication using Java 1.8.0_221 on DESKTOP-NB4R6RN with PID 7076 (E:\springboot\blog\target\classes started by 刘浩宇 in E:\springboot\blog)
+2021-08-12 17:29:26.181 DEBUG 7076 --- [restartedMain] com.leaf.BlogApplication                 : Running with Spring Boot v2.5.3, Spring v5.3.9
+2021-08-12 17:29:26.181  INFO 7076 --- [restartedMain] com.leaf.BlogApplication                 : The following profiles are active: dev
+2021-08-12 17:29:26.224  INFO 7076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-12 17:29:26.224  INFO 7076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-12 17:29:26.952  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-12 17:29:27.035  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 5 JPA repository interfaces.
+2021-08-12 17:29:27.783  INFO 7076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2021-08-12 17:29:27.818  INFO 7076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-12 17:29:27.819  INFO 7076 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-12 17:29:27.820  INFO 7076 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2021-08-12 17:29:27.822  INFO 7076 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-12 17:29:27.822  INFO 7076 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2021-08-12 17:29:27.822  INFO 7076 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-12 17:29:27.868  INFO 7076 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-12 17:29:28.006  INFO 7076 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-12 17:29:28.007  INFO 7076 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1782 ms
+2021-08-12 17:29:28.168  INFO 7076 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-12 17:29:28.227  INFO 7076 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-12 17:29:28.410  INFO 7076 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-12 17:29:28.536  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-12 17:29:30.315  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-12 17:29:30.341  INFO 7076 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-12 17:29:31.167  INFO 7076 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-12 17:29:31.176  INFO 7076 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-12 17:29:32.150  WARN 7076 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-12 17:29:32.406  INFO 7076 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-08-12 17:29:32.859  INFO 7076 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-12 17:29:32.893  INFO 7076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2021-08-12 17:29:32.901  INFO 7076 --- [restartedMain] com.leaf.BlogApplication                 : Started BlogApplication in 7.306 seconds (JVM running for 10.097)
+2021-08-12 17:29:36.839  INFO 7076 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-12 17:29:36.839  INFO 7076 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-12 17:29:36.840  INFO 7076 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-12 17:29:36.874  INFO 7076 --- [http-nio-8088-exec-1] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-08-12 17:29:37.002  WARN 7076 --- [http-nio-8088-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-08-12 17:29:37.013  WARN 7076 --- [http-nio-8088-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-08-12 17:29:37.024  INFO 7076 --- [http-nio-8088-exec-1] com.leaf.aspect.LogAspect                : Result : index
+2021-08-12 17:29:37.720  INFO 7076 --- [http-nio-8088-exec-7] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.newblogs', args=[{}]}
+2021-08-12 17:29:37.726  INFO 7076 --- [http-nio-8088-exec-7] com.leaf.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-08-12 17:29:43.443  INFO 7076 --- [http-nio-8088-exec-9] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2021-08-12 17:29:43.458  INFO 7076 --- [http-nio-8088-exec-9] com.leaf.aspect.LogAspect                : Result : types
+2021-08-12 17:29:43.834  INFO 7076 --- [http-nio-8088-exec-5] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.newblogs', args=[{}]}
+2021-08-12 17:29:43.841  INFO 7076 --- [http-nio-8088-exec-5] com.leaf.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-08-12 17:29:44.506  INFO 7076 --- [http-nio-8088-exec-1] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2021-08-12 17:29:44.528  INFO 7076 --- [http-nio-8088-exec-1] com.leaf.aspect.LogAspect                : Result : tags
+2021-08-12 17:29:44.958  INFO 7076 --- [http-nio-8088-exec-7] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.newblogs', args=[{}]}
+2021-08-12 17:29:44.967  INFO 7076 --- [http-nio-8088-exec-7] com.leaf.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-08-12 17:29:45.887  INFO 7076 --- [http-nio-8088-exec-6] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.ArchiveShowController.archives', args=[{}]}
+2021-08-12 17:29:45.908  INFO 7076 --- [http-nio-8088-exec-6] com.leaf.aspect.LogAspect                : Result : archives
+2021-08-12 17:29:46.122  INFO 7076 --- [http-nio-8088-exec-7] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.newblogs', args=[{}]}
+2021-08-12 17:29:46.127  INFO 7076 --- [http-nio-8088-exec-7] com.leaf.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-08-12 17:29:48.398  INFO 7076 --- [http-nio-8088-exec-1] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/about', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.AboutShowController.about', args=[]}
+2021-08-12 17:29:48.399  INFO 7076 --- [http-nio-8088-exec-1] com.leaf.aspect.LogAspect                : Result : about
+2021-08-12 17:29:48.610  INFO 7076 --- [http-nio-8088-exec-2] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.newblogs', args=[{}]}
+2021-08-12 17:29:48.617  INFO 7076 --- [http-nio-8088-exec-2] com.leaf.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-08-12 17:29:53.886  INFO 7076 --- [http-nio-8088-exec-4] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.ArchiveShowController.archives', args=[{}]}
+2021-08-12 17:29:53.897  INFO 7076 --- [http-nio-8088-exec-4] com.leaf.aspect.LogAspect                : Result : archives
+2021-08-12 17:29:54.109  INFO 7076 --- [http-nio-8088-exec-6] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.newblogs', args=[{}]}
+2021-08-12 17:29:54.115  INFO 7076 --- [http-nio-8088-exec-6] com.leaf.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-08-12 17:29:59.737  INFO 7076 --- [http-nio-8088-exec-1] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2021-08-12 17:29:59.746  INFO 7076 --- [http-nio-8088-exec-1] com.leaf.aspect.LogAspect                : Result : tags
+2021-08-12 17:29:59.988  INFO 7076 --- [http-nio-8088-exec-7] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.newblogs', args=[{}]}
+2021-08-12 17:29:59.995  INFO 7076 --- [http-nio-8088-exec-7] com.leaf.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-08-12 17:30:02.854  INFO 7076 --- [http-nio-8088-exec-5] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2021-08-12 17:30:02.862  INFO 7076 --- [http-nio-8088-exec-5] com.leaf.aspect.LogAspect                : Result : types
+2021-08-12 17:30:03.087  INFO 7076 --- [http-nio-8088-exec-4] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.newblogs', args=[{}]}
+2021-08-12 17:30:03.093  INFO 7076 --- [http-nio-8088-exec-4] com.leaf.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-08-12 17:30:06.748  INFO 7076 --- [http-nio-8088-exec-9] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-08-12 17:30:06.763  INFO 7076 --- [http-nio-8088-exec-9] com.leaf.aspect.LogAspect                : Result : index
+2021-08-12 17:30:07.001  INFO 7076 --- [http-nio-8088-exec-7] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.newblogs', args=[{}]}
+2021-08-12 17:30:07.005  INFO 7076 --- [http-nio-8088-exec-7] com.leaf.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-08-12 17:30:10.604  INFO 7076 --- [http-nio-8088-exec-2] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2021-08-12 17:30:10.611  INFO 7076 --- [http-nio-8088-exec-2] com.leaf.aspect.LogAspect                : Result : types
+2021-08-12 17:30:10.836  INFO 7076 --- [http-nio-8088-exec-3] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.newblogs', args=[{}]}
+2021-08-12 17:30:10.842  INFO 7076 --- [http-nio-8088-exec-3] com.leaf.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-08-12 17:30:11.341  INFO 7076 --- [http-nio-8088-exec-9] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2021-08-12 17:30:11.348  INFO 7076 --- [http-nio-8088-exec-9] com.leaf.aspect.LogAspect                : Result : tags
+2021-08-12 17:30:11.583  INFO 7076 --- [http-nio-8088-exec-1] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.newblogs', args=[{}]}
+2021-08-12 17:30:11.588  INFO 7076 --- [http-nio-8088-exec-1] com.leaf.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-08-12 17:30:11.869  INFO 7076 --- [http-nio-8088-exec-2] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.ArchiveShowController.archives', args=[{}]}
+2021-08-12 17:30:11.882  INFO 7076 --- [http-nio-8088-exec-2] com.leaf.aspect.LogAspect                : Result : archives
+2021-08-12 17:30:12.111  INFO 7076 --- [http-nio-8088-exec-2] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.newblogs', args=[{}]}
+2021-08-12 17:30:12.116  INFO 7076 --- [http-nio-8088-exec-2] com.leaf.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-08-12 17:30:12.382  INFO 7076 --- [http-nio-8088-exec-3] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/about', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.AboutShowController.about', args=[]}
+2021-08-12 17:30:12.383  INFO 7076 --- [http-nio-8088-exec-3] com.leaf.aspect.LogAspect                : Result : about
+2021-08-12 17:30:12.596  INFO 7076 --- [http-nio-8088-exec-7] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.newblogs', args=[{}]}
+2021-08-12 17:30:12.601  INFO 7076 --- [http-nio-8088-exec-7] com.leaf.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-08-12 17:30:13.058  INFO 7076 --- [http-nio-8088-exec-4] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-08-12 17:30:13.070  INFO 7076 --- [http-nio-8088-exec-4] com.leaf.aspect.LogAspect                : Result : index
+2021-08-12 17:30:13.290  INFO 7076 --- [http-nio-8088-exec-4] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.newblogs', args=[{}]}
+2021-08-12 17:30:13.294  INFO 7076 --- [http-nio-8088-exec-4] com.leaf.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-08-12 17:30:13.921  INFO 7076 --- [http-nio-8088-exec-10] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/blog/68', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.blog', args=[68, {}]}
+2021-08-12 17:30:14.002  INFO 7076 --- [http-nio-8088-exec-10] com.leaf.aspect.LogAspect                : Result : blog
+2021-08-12 17:30:14.311  INFO 7076 --- [http-nio-8088-exec-6] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.newblogs', args=[{}]}
+2021-08-12 17:30:14.316  INFO 7076 --- [http-nio-8088-exec-6] com.leaf.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-08-12 17:30:19.473  INFO 7076 --- [http-nio-8088-exec-9] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/blog/63', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.blog', args=[63, {}]}
+2021-08-12 17:30:19.484  INFO 7076 --- [http-nio-8088-exec-9] com.leaf.aspect.LogAspect                : Result : blog
+2021-08-12 17:30:19.808  INFO 7076 --- [http-nio-8088-exec-3] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.newblogs', args=[{}]}
+2021-08-12 17:30:19.814  INFO 7076 --- [http-nio-8088-exec-3] com.leaf.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-08-12 17:30:19.872  INFO 7076 --- [http-nio-8088-exec-8] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/comments/63', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.CommentController.comments', args=[63, {}]}
+2021-08-12 17:30:19.914  INFO 7076 --- [http-nio-8088-exec-8] com.leaf.aspect.LogAspect                : Result : blog :: commentList
+2021-08-12 17:30:38.965  INFO 7076 --- [http-nio-8088-exec-4] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2021-08-12 17:30:38.972  INFO 7076 --- [http-nio-8088-exec-4] com.leaf.aspect.LogAspect                : Result : types
+2021-08-12 17:30:39.233  INFO 7076 --- [http-nio-8088-exec-2] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.newblogs', args=[{}]}
+2021-08-12 17:30:39.238  INFO 7076 --- [http-nio-8088-exec-2] com.leaf.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-08-12 17:31:34.239  INFO 7076 --- [http-nio-8088-exec-7] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-08-12 17:31:34.253  INFO 7076 --- [http-nio-8088-exec-7] com.leaf.aspect.LogAspect                : Result : index
+2021-08-12 17:31:34.511  INFO 7076 --- [http-nio-8088-exec-1] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.newblogs', args=[{}]}
+2021-08-12 17:31:34.515  INFO 7076 --- [http-nio-8088-exec-1] com.leaf.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-08-12 17:31:57.999  INFO 7076 --- [http-nio-8088-exec-9] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2021-08-12 17:31:58.006  INFO 7076 --- [http-nio-8088-exec-9] com.leaf.aspect.LogAspect                : Result : types
+2021-08-12 17:31:58.243  INFO 7076 --- [http-nio-8088-exec-5] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.newblogs', args=[{}]}
+2021-08-12 17:31:58.246  INFO 7076 --- [http-nio-8088-exec-5] com.leaf.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-08-12 17:31:58.692  INFO 7076 --- [http-nio-8088-exec-6] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-08-12 17:31:58.702  INFO 7076 --- [http-nio-8088-exec-6] com.leaf.aspect.LogAspect                : Result : index
+2021-08-12 17:31:58.943  INFO 7076 --- [http-nio-8088-exec-3] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.newblogs', args=[{}]}
+2021-08-12 17:31:58.950  INFO 7076 --- [http-nio-8088-exec-3] com.leaf.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-08-12 17:41:27.231  INFO 7076 --- [http-nio-8088-exec-5] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-08-12 17:41:27.242  INFO 7076 --- [http-nio-8088-exec-5] com.leaf.aspect.LogAspect                : Result : index
+2021-08-12 17:41:27.484  INFO 7076 --- [http-nio-8088-exec-2] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.newblogs', args=[{}]}
+2021-08-12 17:41:27.487  INFO 7076 --- [http-nio-8088-exec-2] com.leaf.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-08-12 17:41:38.894  INFO 7076 --- [http-nio-8088-exec-8] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2021-08-12 17:41:38.900  INFO 7076 --- [http-nio-8088-exec-8] com.leaf.aspect.LogAspect                : Result : types
+2021-08-12 17:41:39.225  INFO 7076 --- [http-nio-8088-exec-3] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.newblogs', args=[{}]}
+2021-08-12 17:41:39.229  INFO 7076 --- [http-nio-8088-exec-3] com.leaf.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-08-12 17:41:40.332  INFO 7076 --- [http-nio-8088-exec-1] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.ArchiveShowController.archives', args=[{}]}
+2021-08-12 17:41:40.342  INFO 7076 --- [http-nio-8088-exec-1] com.leaf.aspect.LogAspect                : Result : archives
+2021-08-12 17:41:40.546  INFO 7076 --- [http-nio-8088-exec-8] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.newblogs', args=[{}]}
+2021-08-12 17:41:40.551  INFO 7076 --- [http-nio-8088-exec-8] com.leaf.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-08-12 17:41:41.072  INFO 7076 --- [http-nio-8088-exec-7] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2021-08-12 17:41:41.078  INFO 7076 --- [http-nio-8088-exec-7] com.leaf.aspect.LogAspect                : Result : tags
+2021-08-12 17:41:41.296  INFO 7076 --- [http-nio-8088-exec-2] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.newblogs', args=[{}]}
+2021-08-12 17:41:41.299  INFO 7076 --- [http-nio-8088-exec-2] com.leaf.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-08-12 17:41:41.784  INFO 7076 --- [http-nio-8088-exec-1] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/about', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.AboutShowController.about', args=[]}
+2021-08-12 17:41:41.784  INFO 7076 --- [http-nio-8088-exec-1] com.leaf.aspect.LogAspect                : Result : about
+2021-08-12 17:41:42.137  INFO 7076 --- [http-nio-8088-exec-5] com.leaf.aspect.LogAspect                : Request : {url='http://localhost:8088/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.leaf.web.indexController.newblogs', args=[{}]}
+2021-08-12 17:41:42.143  INFO 7076 --- [http-nio-8088-exec-5] com.leaf.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-08-12 17:43:13.381  INFO 7076 --- [Thread-18] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-12 17:43:13.393  INFO 7076 --- [Thread-18] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-12 17:43:13.402  INFO 7076 --- [Thread-18] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-12 17:43:13.613  INFO 7076 --- [restartedMain] com.leaf.BlogApplication                 : Starting BlogApplication using Java 1.8.0_221 on DESKTOP-NB4R6RN with PID 7076 (E:\springboot\blog\target\classes started by 刘浩宇 in E:\springboot\blog)
+2021-08-12 17:43:13.613 DEBUG 7076 --- [restartedMain] com.leaf.BlogApplication                 : Running with Spring Boot v2.5.3, Spring v5.3.9
+2021-08-12 17:43:13.613  INFO 7076 --- [restartedMain] com.leaf.BlogApplication                 : The following profiles are active: dev
+2021-08-12 17:43:13.821  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-12 17:43:13.857  INFO 7076 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 5 JPA repository interfaces.
+2021-08-12 17:43:14.090  INFO 7076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2021-08-12 17:43:14.090  INFO 7076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-12 17:43:14.090  INFO 7076 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-12 17:43:14.091  INFO 7076 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2021-08-12 17:43:14.091  INFO 7076 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-12 17:43:14.091  INFO 7076 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2021-08-12 17:43:14.091  INFO 7076 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-12 17:43:14.091  INFO 7076 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-12 17:43:14.147  INFO 7076 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-12 17:43:14.147  INFO 7076 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 531 ms
+2021-08-12 17:43:14.207  INFO 7076 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-12 17:43:14.211  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-08-12 17:43:14.222  INFO 7076 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-08-12 17:43:14.222  INFO 7076 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-12 17:43:14.347  INFO 7076 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-12 17:43:14.347  INFO 7076 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-12 17:43:14.715  WARN 7076 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-12 17:43:14.859  INFO 7076 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-08-12 17:43:15.004  INFO 7076 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-12 17:43:15.016  INFO 7076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2021-08-12 17:43:15.019  INFO 7076 --- [restartedMain] com.leaf.BlogApplication                 : Started BlogApplication in 1.448 seconds (JVM running for 832.215)
+2021-08-12 17:43:15.021  INFO 7076 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-12 17:43:23.954  INFO 4544 --- [restartedMain] com.leaf.BlogApplication                 : Starting BlogApplication using Java 1.8.0_221 on DESKTOP-NB4R6RN with PID 4544 (E:\springboot\blog\target\classes started by 刘浩宇 in E:\springboot\blog)
+2021-08-12 17:43:23.958 DEBUG 4544 --- [restartedMain] com.leaf.BlogApplication                 : Running with Spring Boot v2.5.3, Spring v5.3.9
+2021-08-12 17:43:23.958  INFO 4544 --- [restartedMain] com.leaf.BlogApplication                 : The following profiles are active: dev
+2021-08-12 17:43:23.997  INFO 4544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-12 17:43:23.997  INFO 4544 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-12 17:43:24.592  INFO 4544 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-12 17:43:24.674  INFO 4544 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 5 JPA repository interfaces.
+2021-08-12 17:43:25.375  INFO 4544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2021-08-12 17:43:25.383  INFO 4544 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-12 17:43:25.383  INFO 4544 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-12 17:43:25.386  INFO 4544 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2021-08-12 17:43:25.386  INFO 4544 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-08-12 17:43:25.386  INFO 4544 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2021-08-12 17:43:25.386  INFO 4544 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-08-12 17:43:25.391  INFO 4544 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-08-12 17:43:25.542  INFO 4544 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-12 17:43:25.543  INFO 4544 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1545 ms
+2021-08-12 17:43:25.691  INFO 4544 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-12 17:43:25.728  INFO 4544 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-12 17:43:25.827  INFO 4544 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-12 17:43:25.916  INFO 4544 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-12 17:43:27.599  INFO 4544 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-12 17:43:27.619  INFO 4544 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-12 17:43:28.346  INFO 4544 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-12 17:43:28.355  INFO 4544 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-12 17:43:29.250  WARN 4544 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-12 17:43:29.529  INFO 4544 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-08-12 17:43:29.941  INFO 4544 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-12 17:43:29.975  INFO 4544 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2021-08-12 17:43:29.986  INFO 4544 --- [restartedMain] com.leaf.BlogApplication                 : Started BlogApplication in 6.483 seconds (JVM running for 9.037)
+2021-08-12 17:43:30.064  INFO 4544 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-12 17:43:30.064  INFO 4544 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-12 17:43:30.065  INFO 4544 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
