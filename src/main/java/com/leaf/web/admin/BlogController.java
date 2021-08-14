@@ -82,7 +82,7 @@ public class BlogController {
 		}
 
 		if(b == null){
-			attributes.addFlashAttribute("message","操作失败");
+			attributes.addFlashAttribute("message","操作失败1");
 		}else{
 			attributes.addFlashAttribute("message","恭喜你,操作成功!!!");
 		}
